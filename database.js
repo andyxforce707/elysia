@@ -403,7 +403,7 @@ function tampilkanMenu(data) {
                   <p class="price">Rp. ${harga},-</p>
                   <div class="buttons">
                       <button class="detail btn" data-id="${id}">Detail</button>
-                      <button class="buy btn"><a href="https://wa.me/087719411744?text=Saya ingin beli *${nama.toLowerCase()}*, harganya *Rp.${harga}*/pcs. Bisa share info lebih lanjut? Saya dapat info ini dari situs Web.">Beli</a></button>
+                      <button class="buy btn"><a href="https://wa.me/+6287719411744?text=Saya ingin beli *${nama.toLowerCase()}*, harganya *Rp.${harga}*/pcs. Bisa share info lebih lanjut? Saya dapat info ini dari situs Web.">Beli</a></button>
                   </div>
               </div>
           `;
@@ -490,7 +490,7 @@ document.addEventListener('click', function (e) {
               <b class="close-detail-box">&cross;</b>
               <button class="button-close">Back</button>
 
-              <a class="detail-buy" href="https://wa.me/087719411744?text=Saya ingin beli *${nama.toLowerCase()}*, harganya *Rp.${harga}*/pcs. Bisa share info lebih lanjut? Saya dapat info ini dari situs Web.">Beli</a>
+              <a class="detail-buy" href="https://wa.me/+6287719411744?text=Saya ingin beli *${nama.toLowerCase()}*, harganya *Rp.${harga}*/pcs. Bisa share info lebih lanjut? Saya dapat info ini dari situs Web.">Beli</a>
 
               
           </div>
