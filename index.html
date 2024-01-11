@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elysia</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="database.js" defer></script>
+  </head>
+  <body>
+    <div class="container" id="top">
+      <!-- NAVBAR -->
+      <div class="header">
+        <img src="icon/elysialogo.png" class="logo" />
+        <ul class="nav">
+          <li class="nav-menu active"><input id="keyword" type="text" placeholder="Masukkan kata pencarian ..." /><img src="icon/icon-search.png" width="18" height="18" /></li>
+          <li>
+            <a href="https://shopee.co.id/kancil_p.s"><img class="shopee" src="icon/icon_shopee1.png" title="Kunjungi lapak shopee kami." width="20" height="20" /></a>
+          </li>
+        </ul>
+      </div>
+      <!-- NAVBAR END -->
+
+      <!-- MAIN IMAGE -->
+      <div class="banner">
+        <img src="bg/elysia1.jpg" class="main-image" />
+      </div>
+      <!-- MAIN IMAGE END -->
+
+      <!-- CONTENT -->
+      <div class="content">
+        <h2 class="title" id="menu">Produk</h2>
+        <p class="found"></p>
+        <div class="data-content"></div>
+        <h2 class="title">Keunggulan</h2>
+        <div class="production">
+          <div class="production1">
+            <img src="env/env1.png" alt="" class="production-image" />
+            <h3 class="underline">Kualitas</h3>
+            <h4 class="highlight">Kenapa harus di Elysia?</h4>
+            <p class="paragraf">Elysia menjual produk berkualitas dengan harga terjangkau, yg sulit di temukan di tempat lain.</p>
+          </div>
+
+          <div class="production1">
+            <img src="env/env2.png" alt="" class="production-image" />
+            <h3 class="underline">Pelayanan</h3>
+            <h4 class="highlight">Seperti apa Pelayanannya?</h4>
+            <p class="paragraf">Di handle oleh tim customer service dan tim terkait, guna memaksimalkan pelayanan untuk memenuhi kepuasan pelanggan,</p>
+          </div>
+
+          <div class="production1">
+            <img src="env/env3.png" alt="" class="production-image" />
+            <h3 class="underline">Packing</h3>
+            <h4 class="highlight">Packing Aman?</h4>
+            <p class="paragraf">Pengiriman merupakan salah satu hal yg krusial dalam belanja online, Kami akan mengemas produk seaman mungkin untuk menghindari kerusakan pada produk.</p>
+          </div>
+        </div>
+      </div>
+      <!-- CONTENT END -->
+
+      <!-- FOOTER -->
+      <footer class="footer" id="bottom">
+        <img src="icon/elysialogo1.png" class="footer-logo" />
+        <div class="social-media">
+          <h4>Follow us on Social Media</h4>
+          <ul>
+            <li>
+              <a href="https://shopee.co.id/kancil_p.s" class="link"><img src="icon/icon_shopee1.png" width="30" height="30" / title="Kunjungi lapak shopee kami."></a>
+            </li>
+            <li>
+              <a href="#" class="link"><img src="icon/icon-instagram.png" width="30" height="30" /></a>
+            </li>
+            <li>
+              <a href="#" class="link"><img src="icon/icon-facebook2.png" width="30" height="30" /></a>
+            </li>
+            <li>
+              <a href="#" class="link"><img src="icon/icon-twitter.png" width="30" height="30" /></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="copyright">
+          <h4>A Website By <a href="#" class="link">@andyxforce</a></h4>
+          <p>Allrights reserved &copy;2024</p>
+        </div>
+      </footer>
+      <!-- FOOTER END-->
+
+      <!-- DOM MANIPULATION -->
+
+      <div id="detail-box" class="detail-box"></div>
+
+      <!-- scroll -->
+      <div class="scroll">
+        <a href="#top"><img src="icon/icon-top2.png" /></a>
+        <a href="#bottom"><img src="icon/icon-top2.png" /></a>
+      </div>
+
+      <!-- greets -->
+      <div class="greets">
+        <h2>Selamat datang!</h2>
+        <h3>Ini adalah website resmi "Elysia".</h3>
+        <img src="icon/elysialogo.png" />
+        <p>
+          Silahkan lihat-lihat Produk kami, jika ingin mencari produk bisa ketikkan kata dikolom pencarian di bagian navbar.Jika ingin melihat lebih detail masing-masing produk bisa klik tombol
+          <span class="greets-detail">Detail</span>. Jika ingin membeli bisa klik tombol <span class="greets-buy">Beli</span>. Untuk menutup pesan ini, klik tombol silang merah dipojok kanan atas dari pesan ini.
+        </p>
+        <b class="close-greets">&cross;</b>
+      </div>
+      <!-- DOM MANIPULATION END-->
+    </div>
+  </body>
+</html>
